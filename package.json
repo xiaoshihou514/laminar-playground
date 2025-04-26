@@ -1,7 +1,5 @@
 {
-  "dependencies": {
-    "chart.js": "4.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-alias": "5.0.0",
     "jsdom": "22.1.0",

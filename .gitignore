@@ -2,3 +2,5 @@
 /node_modules
 /.bsp
 /dist
+/.bloop
+/.metals

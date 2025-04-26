@@ -2,8 +2,6 @@ package build
 
 import $packages._
 
-import build.project.scalablytyped
-
 import $file.project.base
 import $file.project.vite
 
@@ -15,8 +13,6 @@ import mill.scalajslib.api._
 
 object `package` extends RootModule with base.JS {
   def moduleKind = ModuleKind.ESModule
-  def moduleSplitStyle = ModuleSplitStyle.SmallModulesFor(List("chart"))
-  def moduleDeps = Seq(scalablytyped)
   def ivyDeps = Agg(
     ivy"com.raquo::laminar::17.2.0"
   )
