@@ -14,7 +14,8 @@ import mill.scalajslib.api._
 object `package` extends RootModule with base.JS {
   def moduleKind = ModuleKind.ESModule
   def ivyDeps = Agg(
-    ivy"com.raquo::laminar::17.2.0"
+    ivy"com.raquo::laminar::17.2.0",
+    ivy"com.raquo::waypoint::9.0.0"
   )
   def publicDev = T {
     public(fastLinkJS)()
